@@ -12,4 +12,4 @@ COPY . /app
 RUN npm install
 EXPOSE 8080
 # Define the entry point for the container
-CMD ["npm", "build"]
+CMD ["npm", "start"]
